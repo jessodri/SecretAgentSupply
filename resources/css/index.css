@@ -19,6 +19,10 @@ h2 {
 
 }
 
+ul {
+  list-style: none;
+}
+
 .logo {
   height: 1.5rem;
   padding-left: 0.5rem;
