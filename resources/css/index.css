@@ -66,13 +66,20 @@ a {
   text-decoration: none;
 }
 
+.mobile-nav, .mobile-nav a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
 .images {
   display: flex;
   justify-content: space-between;
   margin: 3rem 0rem;
 }
 
-.product-image {
+div.product-image {
   height: 9rem;
   display: flex;
   justify-content: center;
@@ -82,8 +89,8 @@ a {
   overflow: hidden;
 }
 
-.product-image img {
-  height: 100%;
+.product-image img{
+  max-width: 8em;
 }
 
 .product {
@@ -121,4 +128,64 @@ footer {
   background-color: black;
   color: white;
   padding: 5rem 0rem;
+}
+
+@media only screen and (max-width:1024px){
+  .product {
+    width: 47%;
+  }
+.sunglasses {
+  display: none;
+}
+ul.wrapper {
+  display: none;
+}
+}
+@media only screen and (min-width:1024px){
+  .mobile-nav{
+    display: none;
+  }
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width:470px){
+  .product {
+    width: 90%;
+    margin:auto;  }
+
+  .box {
+    width: 90%;
+    margin: 0.5em auto;
+  }
+.sunglasses, .watch {
+  display: none;
+}
+ul.wrapper {
+  display: none;
+}
+footer {
+text-align:center;}
+
+.location-hours {
+  flex-wrap: wrap;
+}
+.banner-text {
+position: relative;
+top: 10.2rem;
+padding-left: 2rem;
+padding-top:1rem;
+width:auto;
+}
+.banner {
+  height: 15rem;
+}
+h4 {
+  font-size: 0.77rem;
+
+}
+h1 {
+  font-size: 1rem;
+}
 }
