@@ -1,0 +1,124 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+header {
+  background-color: black;
+  justify-content: center;
+  padding: 0.66rem 0rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: white;
+  display:inline-block;
+
+}
+
+.logo {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  vertical-align: middle;
+}
+
+.banner {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  height: 25rem;
+}
+.banner-text {
+  padding: 2rem 0rem 2rem 3rem;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  width: 20rem;
+  position:relative;
+  top:9rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: auto;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+nav {
+  background-color: firebrick;
+  padding: 0.75rem 0rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0rem;
+}
+
+.product-image {
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  border: 4px solid black;
+  overflow: hidden;
+}
+
+.product-image img {
+  height: 100%;
+}
+
+.product {
+  width: 30%;
+}
+
+.caption {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  display: block;
+}
+
+.location-hours {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  background-color: black;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 5rem 0rem;
+}
